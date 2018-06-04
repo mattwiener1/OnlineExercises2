@@ -19,8 +19,6 @@ namespace OnlineExercises2
 
             var order = new string[4] {"first", "second", "third", "fourth"};
             var numbers = new int[4];
-            //var input = Console.ReadLine();
-            var result = 0;
             for (var i = 0; i <= 3; i++)
             {
                 Console.WriteLine("please enter the " + order[i] + " number: ");
